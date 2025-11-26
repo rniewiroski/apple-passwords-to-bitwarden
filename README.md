@@ -16,7 +16,7 @@ This tool helps Mac users migrate missing password entries from Apple Passwords 
 
 Install pandas using pip if not already installed:
 
-pip install pandas
+`pip install pandas`
 
 ## Export Your Passwords
 
@@ -26,6 +26,7 @@ pip install pandas
 ## Usage
 
 Clone this repo and navigate to it in your terminal. Then run:
+
 `python apple_passwords_to_bitwarden.py -b path/to/bitwarden.csv -a path/to/apple_passwords.csv -o output.csv`
 
 ### Optional Arguments
@@ -38,7 +39,7 @@ Clone this repo and navigate to it in your terminal. Then run:
 
 ### Example
 
-`python apple_passwords_to_bitwarden.py -b bitwarden_export.csv -a ApplePasswords.csv -o migrated.csv –marker “Migrated on 2025-11-25”`
+python apple_passwords_to_bitwarden.py -b bitwarden_export.csv -a ApplePasswords.csv -o migrated.csv –marker “Migrated on 2025-11-25”
 
 ## Importing Back to Bitwarden
 
